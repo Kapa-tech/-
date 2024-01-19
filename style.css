@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.tbclogo {
+  height: 4rem;
+  width: 18.2rem;
+}
+
+.navlinks {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navlinks:hover,
+.navlinks:active {
+  color: #00a3e0;
+}
+
+.links {
+  display: flex;
+  /* text-align: right; */
+  font-size: 1.6rem;
+  gap: 5rem;
+  list-style: none;
+  align-items: center;
+}
+
+.TBClink {
+  color: #00a3e0;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: #1a1e1f;
+  display: flex;
+  height: 8.4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 44rem;
+}
+
+.teammembers {
+  height: 35.2rem;
+  background-image: url("IMG/meeting.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head1 {
+  font-size: 4.2rem;
+  color: #fff;
+}
+
+.head2 {
+  font-size: 3.4rem;
+  color: #fff;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 0 auto;
+  height: 13.738rem;
+  width: 98rem;
+}
+
+.introduction {
+  height: 46.478rem;
+  width: 190.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+  color: #fff;
+}
+
+.box2 {
+  font-size: 2.8rem;
+  width: 95.7rem;
+  height: 26.498rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.more {
+  color: #00a3e0;
+  font-size: 2.4rem;
+}
+
+.courses {
+  width: 190.3rem;
+  height: 148.5rem;
+  background-color: rgb(22, 22, 22);
+  color: #fff;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95.7rem;
+  height: 26.498rem;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.header {
+  width: 95.7rem;
+  font-size: 2.4rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.list {
+  list-style: none;
+  border: 1px solid #ffffff30;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 41.6rem;
+  width: 30rem;
+}
+
+.info {
+  padding-left: 2.5rem;
+}
+
+.coursename {
+  padding-top: 2rem;
+  font-size: 1.8rem;
+}
+
+.registration {
+  padding-top: 2rem;
+  font-size: 1.55rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  margin-top: 12rem;
+  display: flex;
+  gap: 1rem;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  cursor: pointer;
+}
+
+.details {
+  color: #00a3e0;
+}
+
+.partners {
+  height: 22.4rem;
+  width: 190.3rem;
+  background-color: rgb(43, 43, 43);
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.askedquestions {
+  height: 48.4rem;
+  width: 190.3rem;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: row;
+}
+
+.box5 {
+  width: 90rem;
+  height: 37.7rem;
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.list1 {
+  list-style: none;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.head3 {
+  display: flex;
+  gap: 42rem;
+  font-size: 2.4rem;
+}
+
+.questions {
+  text-decoration: none;
+  color: #00a3e0;
+}
+.questions:hover,
+.questions:active {
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+.btns {
+  margin-left: 39rem;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  cursor: pointer;
+}
+
+.listitem {
+  border-bottom: 1px solid #ffffff30;
+  padding-bottom: 4rem;
+}
+
+.listitem2 {
+  border-bottom: 1px solid #ffffff30;
+  padding-bottom: 4rem;
+}
+
+.listitem3 {
+  border-bottom: 1px solid #ffffff30;
+  padding-bottom: 4rem;
+}
+
+.btns2 {
+  margin-left: 37.5rem;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  cursor: pointer;
+}
+
+.btns3 {
+  margin-left: 48.5rem;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  cursor: pointer;
+}
+
+.lastsection {
+  background-color: rgb(26, 30, 31);
+  height: 22.839rem;
+  width: 190rem;
+}
+
+.firstcolume {
+  color: #fff;
+}
+
+.box6 {
+  padding-top: 5rem;
+  display: flex;
+  gap: 70rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstcolume {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.4rem;
+}
+
+.logotbc {
+  width: 10.6rem;
+  height: 3rem;
+}
+
+.scncolume {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+.textus {
+  background-color: #00a3e0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: #fff;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  border-radius: 7.5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 7rem;
+}
+
+.textus:hover,
+.textus:active {
+  background-color: #fff;
+  color: #1a1e1f;
+}

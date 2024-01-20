@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wdth,wght@62.5..100,100..900&display=swap");
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  font-family: "Noto Sans Georgian", sans-serif;
 }
 
 .tbclogo {
   height: 4rem;
-  width: 18.2rem;
+  /* width: 18.2rem; */
 }
 
 .navlinks {
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .navlinks:hover,
@@ -28,7 +32,7 @@ html {
   display: flex;
   /* text-align: right; */
   font-size: 1.6rem;
-  gap: 5rem;
+  gap: 4rem;
   list-style: none;
   align-items: center;
 }
@@ -41,10 +45,12 @@ html {
 .navigation {
   background-color: #1a1e1f;
   display: flex;
-  height: 8.4rem;
+  /* height: 8.4rem; */
   align-items: center;
   justify-content: center;
   gap: 44rem;
+  /* width: 190.3rem; */
+  height: 8.4rem;
 }
 
 .teammembers {
@@ -53,11 +59,15 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 8.4rem;
 }
 
 .head1 {
+  /* font-family: wfont_643d94_f52303b2efea42e1b4aeed119e42672e,
+    wf_f52303b2efea42e1b4aeed119, orig_tbc_x_black; */
   font-size: 4.2rem;
   color: #fff;
+  font-weight: bolder;
 }
 
 .head2 {
@@ -76,7 +86,7 @@ html {
 
 .introduction {
   height: 46.478rem;
-  width: 190.3rem;
+  /* width: 190.3rem; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,15 +102,34 @@ html {
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  margin-bottom: 6rem;
+  align-items: start;
+}
+
+.intro {
+  font-weight: 400;
 }
 
 .more {
   color: #00a3e0;
   font-size: 2.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* margin-bottom: 5rem; */
+}
+
+.more:hover,
+.more:active {
+  color: #7f858d;
+}
+
+.intro {
+  line-height: 4rem;
 }
 
 .courses {
-  width: 190.3rem;
+  /* width: 190.3rem; */
   height: 148.5rem;
   background-color: rgb(22, 22, 22);
   color: #fff;
@@ -129,7 +158,7 @@ html {
   border-radius: 8px;
   overflow: hidden;
   height: 41.6rem;
-  width: 30rem;
+  /* width: 30rem; */
 }
 
 .info {
@@ -137,7 +166,7 @@ html {
 }
 
 .coursename {
-  padding-top: 2rem;
+  padding-top: 3rem;
   font-size: 1.8rem;
 }
 
@@ -146,31 +175,47 @@ html {
   font-size: 1.55rem;
 }
 
-.btn {
-  font-size: 1.8rem;
+.details {
+  /* font-size: 1.8rem; */
   margin-top: 12rem;
   display: flex;
   gap: 1rem;
-  background-color: rgb(22, 22, 22);
+  /* background-color: rgb(22, 22, 22); */
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
+  /* align-items: center; */
 }
 
-.details {
+.arrow {
+  padding-top: 1rem;
+}
+
+.btn {
   color: #00a3e0;
+  transition: color 0.5s ease;
+  cursor: pointer;
+  background-color: rgb(22, 22, 22);
+  border: none;
+  font-size: 1.8rem;
+}
+
+.btn:hover,
+.btn:active {
+  color: #247da0;
 }
 
 .partners {
   height: 22.4rem;
-  width: 190.3rem;
+  /* width: 190.3rem; */
   background-color: rgb(43, 43, 43);
   font-size: 2.4rem;
   color: #fff;
 }
 
 .askedquestions {
-  height: 48.4rem;
-  width: 190.3rem;
+  padding-top: 6rem;
+  min-height: 30rem;
+  /* width: 190.3rem; */
   background-color: rgb(22, 22, 22);
   display: flex;
   justify-content: center;
@@ -181,10 +226,27 @@ html {
 
 .box5 {
   width: 90rem;
-  height: 37.7rem;
+  /* height: 37.7rem; */
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   flex-direction: column;
+  padding-top: 4rem;
+}
+
+.lvlhead {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.levels {
+  list-style: none;
+  line-height: 2.4rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.eachlevel {
+  margin-bottom: 1.4rem;
 }
 
 .list1 {
@@ -192,22 +254,25 @@ html {
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 .head3 {
   display: flex;
   gap: 42rem;
   font-size: 2.4rem;
+  font-weight: 700;
+  padding-bottom: 1.6rem;
 }
 
 .questions {
   text-decoration: none;
   color: #00a3e0;
+  transition: color 0.4s ease;
 }
 .questions:hover,
 .questions:active {
-  color: #fff;
+  color: #7f858d;
 }
 
 .hidden {
@@ -223,21 +288,25 @@ html {
 
 .listitem {
   border-bottom: 1px solid #ffffff30;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
+  cursor: pointer;
 }
 
 .listitem2 {
   border-bottom: 1px solid #ffffff30;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
+  cursor: pointer;
 }
 
 .listitem3 {
   border-bottom: 1px solid #ffffff30;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
+  cursor: pointer;
+  margin-bottom: 8rem;
 }
 
 .btns2 {
-  margin-left: 37.5rem;
+  margin-left: 37.2rem;
   background-color: rgb(22, 22, 22);
   border: none;
   cursor: pointer;
@@ -253,17 +322,18 @@ html {
 .lastsection {
   background-color: rgb(26, 30, 31);
   height: 22.839rem;
-  width: 190rem;
+  /* width: 190rem; */
 }
 
 .firstcolume {
   color: #fff;
+  margin-left: 8rem;
 }
 
 .box6 {
   padding-top: 5rem;
   display: flex;
-  gap: 70rem;
+  gap: 60rem;
   justify-content: center;
   align-items: center;
 }
@@ -287,6 +357,10 @@ html {
   align-items: center;
 }
 
+.FB {
+  padding-right: 0.6rem;
+}
+
 .textus {
   background-color: #00a3e0;
   padding-left: 3rem;
@@ -299,10 +373,52 @@ html {
   border: none;
   cursor: pointer;
   margin-right: 7rem;
+  transition: color 0.6s ease;
 }
 
 .textus:hover,
 .textus:active {
-  background-color: #fff;
+  background-color: #dfdddd;
   color: #1a1e1f;
 }
+
+.text,
+.text1,
+.text2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 2rem;
+}
+
+.rules {
+  cursor: pointer;
+}
+
+.socials {
+  cursor: pointer;
+}
+
+.Security {
+  /* padding-right: 20rem; */
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.COPYRIGHT {
+  cursor: pointer;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* .transition1 {
+  transition: all 0.3s ease;
+} */

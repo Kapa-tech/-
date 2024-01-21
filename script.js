@@ -24,3 +24,18 @@ btn3.addEventListener("click", function () {
   text3.classList.toggle("hidden");
   img2.classList.toggle("rotate180");
 });
+
+const nav = document.querySelector(".navigation");
+const main = document.querySelector(".courses");
+const stickyNav = function (entries) {
+  const [entry] = entries;
+  console.log(entry);
+  if (entry.Intersecting) nav.classList.add("sticky-color");
+  else nav.classList.remove("sticky-color");
+};
+
+const navObserver = new IntersectionObserver(stickyNav, {
+  root: null,
+  threshold: 0.02,
+});
+navObserver.observe(main);

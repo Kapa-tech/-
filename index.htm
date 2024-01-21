@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="IMG/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
     <script defer src="script.js"></script>
+    <script defer src="slider.js"></script>
     <title>TBC x USAID</title>
   </head>
   <body>
-    <header class="sticky">
+    <header>
       <div class="box">
-        <nav class="navigation">
+        <nav class="navigation sticky">
           <img class="tbclogo" src="IMG/TBClogo.svg" alt="" />
 
           <ul class="links">
@@ -23,7 +26,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section class="teammembers">
         <div class="box1">
           <h1 class="head1">TBC x USAID</h1>
@@ -233,7 +236,34 @@
       </section>
       <section class="partners">
         <div class="box4">
-          <p>პროექტის პარტნიორები</p>
+          <p class="partners-head">პროექტის პარტნიორები</p>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <div class="slide-imgs">
+              <img src="IMG/tegeta.webp" alt="" />
+              <img src="IMG/spectre.webp" alt="" />
+              <img src="IMG/tbclizing.webp" alt="" />
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-imgs">
+              <img src="IMG/usaid.webp" alt="" />
+              <img src="IMG/space.webp" alt="" />
+              <img src="IMG/tinet.png" alt="" />
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-imgs">
+              <img src="IMG/ufc.webp" alt="" />
+            </div>
+          </div>
+
+          <img class="slide-arrow-l" src="IMG/arrowleft.svg" alt="" />
+          <img class="rotate180 slide-arrow-r" src="IMG/arrowleft.svg" alt="" />
+          <div class="dots"></div>
         </div>
       </section>
       <section class="askedquestions">

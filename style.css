@@ -59,7 +59,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 8.4rem;
+  /* margin-top: 8.4rem; */
 }
 
 .head1 {
@@ -451,17 +451,21 @@ html {
 
 .textus {
   background-color: #00a3e0;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  /* padding-left: 3rem;
+  padding-right: 3rem; */
   color: #fff;
   font-size: 2rem;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  /* padding-bottom: 0.5rem;
+  padding-top: 0.5rem; */
   border-radius: 7.5px;
-  border: none;
-  cursor: pointer;
+  /* border: none; */
+  /* cursor: pointer; */
   margin-right: 7rem;
-  transition: color 0.6s ease;
+  /* transition: color 0.6s ease; */
+
+  transition: color 0.3s ease;
+  padding: 0.7rem 3rem 0.7rem 3rem;
+  text-decoration: none;
 }
 
 .textus:hover,
@@ -503,13 +507,19 @@ html {
 
 .sticky {
   position: fixed;
+  /* position: sticky; */
   top: 0;
   width: 100%;
-}
-
-.sticky-color {
   background-color: rgba(36, 35, 35, 0.95);
 }
+
+.sticky2 {
+  margin-top: 8.4rem;
+}
+
+/* .sticky-color {
+  background-color: rgba(36, 35, 35, 0.95);
+} */
 
 /* .transition1 {
   transition: all 0.3s ease;

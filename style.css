@@ -51,6 +51,7 @@ html {
   gap: 44rem;
   /* width: 190.3rem; */
   height: 8.4rem;
+  z-index: 2;
 }
 
 .teammembers {
@@ -170,6 +171,11 @@ html {
   font-size: 1.8rem;
 }
 
+.coursename1 {
+  font-size: 1.8rem;
+  padding-top: 0.4rem;
+}
+
 .registration {
   padding-top: 2rem;
   font-size: 1.55rem;
@@ -184,6 +190,12 @@ html {
   border: none;
   /* cursor: pointer; */
   /* align-items: center; */
+}
+
+.details-last {
+  margin-top: 9.4rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .arrow {
@@ -213,8 +225,9 @@ html {
 }
 
 .box4 {
-  margin: auto 47.5rem;
+  margin: auto;
   padding-top: 3rem;
+  width: 95.7rem;
 }
 
 .slide-arrow-l {
@@ -235,6 +248,7 @@ html {
   display: flex;
   gap: 10rem;
   height: 7.4rem;
+  /* position: relative; */
 }
 
 .slider {
@@ -245,6 +259,26 @@ html {
 
   /* IN THE END */
   /* overflow: hidden; */
+}
+
+.dots-dot,
+.dots-dot1,
+.dots-dot2 {
+  border: none;
+  background-color: rgb(232, 230, 230);
+  /* opacity: 0.7; */
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  /* transition: all 0.5s; */
+}
+
+.dots {
+  position: absolute;
+  left: 94rem;
+  top: 22rem;
 }
 
 /* .dots__dot--active {
@@ -276,7 +310,7 @@ html {
 
 .slide {
   position: absolute;
-
+  /* z-index: 1; */
   width: 100%;
   height: 30rem;
 
@@ -310,6 +344,7 @@ html {
   align-items: center;
   color: #fff;
   flex-direction: row;
+  /* transition: all 0.5s ease; */
 }
 
 .box5 {

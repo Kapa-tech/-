@@ -11,7 +11,21 @@ let curSlide = 0;
 const maxSlide = slides.length;
 const btnLeft = document.querySelector(".slide-arrow-l");
 const btnRight = document.querySelector(".slide-arrow-r");
-const dot = document.querySelector(".dots");
+
+const dot = document.querySelector(".dots-dot");
+const dot2 = document.querySelector(".dots-dot1");
+const dot3 = document.querySelector(".dots-dot2");
+
+const nextsslide = function () {
+  if (curSlide === maxSlide - 1) {
+    curSlide = 0;
+  } else {
+    curSlide++;
+  }
+  slides.forEach(
+    (s, i) => (s.style.transform = `translateX(${100 * (i - curSlide)}%)`)
+  );
+};
 
 btnRight.addEventListener("click", function () {
   if (curSlide === maxSlide - 1) {
@@ -35,13 +49,22 @@ btnLeft.addEventListener("click", function () {
   );
 });
 
-// const createDots = function () {
-//   slides.forEach(function (_, i) {
-//     dot.insertAdjacentHTML(
-//       "beforeend",
-//       `<button class='dots' data-slide='${i}'></button>`
-//     );
-//   });
-// };
+dot3.addEventListener("click", function () {
+  slides[0].style.transform = `translateX(-200%)`;
+  slides[1].style.transform = `translateX(-100%)`;
+  slides[2].style.transform = `translateX(0)`;
+});
 
-// createDots();
+dot2.addEventListener("click", function () {
+  slides[0].style.transform = `translateX(-100%)`;
+  slides[1].style.transform = `translateX(0)`;
+  slides[2].style.transform = `translateX(100%)`;
+});
+
+dot.addEventListener("click", function () {
+  slides[0].style.transform = `translateX(0)`;
+  slides[1].style.transform = `translateX(100%)`;
+  slides[2].style.transform = `translateX(200%)`;
+});
+
+setInterval(nextsslide, 3000);

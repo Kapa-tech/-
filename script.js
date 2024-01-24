@@ -19,6 +19,7 @@ btn1.addEventListener("click", function () {
   text2.classList.add("hidden");
   text3.classList.add("hidden");
 });
+
 btn2.addEventListener("click", function () {
   text2.classList.toggle("hidden");
   img1.classList.toggle("rotate180");

@@ -12,9 +12,8 @@ html {
   font-family: "Noto Sans Georgian", sans-serif;
 }
 
-.tbclogo {
-  height: 4rem;
-  /* width: 18.2rem; */
+body {
+  min-width: 106rem;
 }
 
 .navlinks {
@@ -30,7 +29,7 @@ html {
 
 .links {
   display: flex;
-  /* text-align: right; */
+
   font-size: 1.6rem;
   gap: 4rem;
   list-style: none;
@@ -48,7 +47,7 @@ html {
   /* height: 8.4rem; */
   align-items: center;
   justify-content: center;
-  gap: 44rem;
+  gap: 41rem;
   /* width: 190.3rem; */
   height: 8.4rem;
   z-index: 2;
@@ -60,13 +59,10 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* margin-top: 8.4rem; */
 }
 
 .head1 {
-  /* font-family: wfont_643d94_f52303b2efea42e1b4aeed119e42672e,
-    wf_f52303b2efea42e1b4aeed119, orig_tbc_x_black; */
-  font-size: 4.2rem;
+  font-size: 4.4rem;
   color: #fff;
   font-weight: bolder;
 }
@@ -87,7 +83,7 @@ html {
 
 .introduction {
   height: 46.478rem;
-  /* width: 190.3rem; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,29 +100,22 @@ html {
   flex-direction: column;
   gap: 5rem;
   margin-bottom: 6rem;
-  align-items: start;
-}
 
-.intro {
-  font-weight: 400;
+  font-weight: 549;
+  line-height: 4rem;
 }
 
 .more {
   color: #00a3e0;
-  font-size: 2.4rem;
-  font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: bolder;
   text-decoration: none;
   transition: color 0.3s ease;
-  /* margin-bottom: 5rem; */
 }
 
 .more:hover,
 .more:active {
   color: #7f858d;
-}
-
-.intro {
-  line-height: 4rem;
 }
 
 .courses {
@@ -147,10 +136,10 @@ html {
 
 .header {
   width: 95.7rem;
-  font-size: 2.4rem;
+  font-size: 2.7rem;
   margin: 0 auto;
-  padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
 }
 
 .list {
@@ -158,8 +147,8 @@ html {
   border: 1px solid #ffffff30;
   border-radius: 8px;
   overflow: hidden;
-  height: 41.6rem;
-  /* width: 30rem; */
+  height: 41.4rem;
+  width: 30rem;
 }
 
 .info {
@@ -178,22 +167,20 @@ html {
 
 .registration {
   padding-top: 2rem;
-  font-size: 1.55rem;
+  font-size: 1.54rem;
+  font-weight: 599;
 }
 
 .details {
-  /* font-size: 1.8rem; */
-  margin-top: 12rem;
+  margin-top: 11rem;
   display: flex;
   gap: 1rem;
-  /* background-color: rgb(22, 22, 22); */
+
   border: none;
-  /* cursor: pointer; */
-  /* align-items: center; */
 }
 
 .details-last {
-  margin-top: 9.4rem;
+  margin-top: 8.27rem;
   display: flex;
   gap: 1rem;
 }
@@ -218,7 +205,7 @@ html {
 
 .partners {
   height: 36.339rem;
-  /* width: 190.3rem; */
+
   background-color: rgb(43, 43, 43);
   font-size: 2.4rem;
   color: #fff;
@@ -232,33 +219,38 @@ html {
 
 .slide-arrow-l {
   position: absolute;
-  top: 14rem;
-  left: 9rem;
+  top: 13rem;
+  left: 6rem;
   cursor: pointer;
+}
+
+.slide-arrow-l:hover,
+.slide-arrow-l:active {
+  filter: invert(40%);
+}
+
+.slide-arrow-r:hover,
+.slide-arrow-r:active {
+  filter: invert(40%);
 }
 
 .slide-arrow-r {
   position: absolute;
-  top: 14rem;
-  right: 9rem;
+  top: 13rem;
+  right: 6rem;
   cursor: pointer;
 }
 
 .slide-imgs {
   display: flex;
-  gap: 10rem;
-  height: 7.4rem;
-  /* position: relative; */
+  gap: 12rem;
+  height: 7.9rem;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .slider {
-  /* max-width: 100rem;
-  height: 50rem; */
-  /* margin: 0 auto; */
   position: relative;
-
-  /* IN THE END */
-  /* overflow: hidden; */
 }
 
 .dots-dot,
@@ -266,94 +258,58 @@ html {
 .dots-dot2 {
   border: none;
   background-color: rgb(232, 230, 230);
-  /* opacity: 0.7; */
+
   height: 0.6rem;
   width: 0.6rem;
   border-radius: 50%;
-  margin-right: 0.8rem;
+  margin-right: 0.5rem;
   cursor: pointer;
-  /* transition: all 0.5s; */
+}
+
+.dots__dot--active {
+  background-color: #888;
+  opacity: 1;
 }
 
 .dots {
   position: absolute;
-  left: 94rem;
-  top: 22rem;
-}
-
-/* .dots__dot--active {
-  
-  background-color: #888;
-  opacity: 1;
-} */
-
-/* .dots__dot {
-  border: none;
-  background-color: #b9b9b9;
-  opacity: 0.7;
-  height: 1rem;
-  width: 1rem;
-  border-radius: 50%;
-  margin-right: 1.75rem;
-  cursor: pointer;
-  transition: all 0.5s;
-
-} */
-
-/* .dots {
-  position: absolute;
-  bottom: 5%;
   left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-} */
+  top: 20rem;
+  transform: translateX(-40%);
+}
 
 .slide {
   position: absolute;
-  /* z-index: 1; */
-  width: 100%;
+
+  width: 190.3rem;
   height: 30rem;
 
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* .box4 {
-  flex-direction: column;
-
-  margin: 0 auto;
-  padding-top: 3rem;
-  width: 95.5rem;
-  height: 100%;
-} */
-
-/* .slider {
-}
-
-.slider-img:hover,
-.slider-img:active {
-} */
 
 .askedquestions {
-  padding-top: 6rem;
-  min-height: 30rem;
-  /* width: 190.3rem; */
+  min-height: 48.4rem;
+
   background-color: rgb(22, 22, 22);
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   flex-direction: row;
-  /* transition: all 0.5s ease; */
 }
 
 .box5 {
   width: 90rem;
-  /* height: 37.7rem; */
+
   display: flex;
   gap: 3rem;
   flex-direction: column;
-  padding-top: 4rem;
+
+  margin-top: 9rem;
 }
 
 .lvlhead {
@@ -365,7 +321,7 @@ html {
   list-style: none;
   line-height: 2.4rem;
   margin-left: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .eachlevel {
@@ -383,8 +339,8 @@ html {
 .head3 {
   display: flex;
   gap: 42rem;
-  font-size: 2.4rem;
-  font-weight: 700;
+  font-size: 2.44rem;
+  font-weight: 400;
   padding-bottom: 1.6rem;
 }
 
@@ -392,6 +348,7 @@ html {
   text-decoration: none;
   color: #00a3e0;
   transition: color 0.4s ease;
+  font-weight: bolder;
 }
 .questions:hover,
 .questions:active {
@@ -445,16 +402,10 @@ html {
 .lastsection {
   background-color: rgb(26, 30, 31);
   height: 22.839rem;
-  /* width: 190rem; */
-}
-
-.firstcolume {
-  color: #fff;
-  margin-left: 8rem;
 }
 
 .box6 {
-  padding-top: 5rem;
+  padding-top: 6rem;
   display: flex;
   gap: 60rem;
   justify-content: center;
@@ -466,6 +417,8 @@ html {
   flex-direction: column;
   gap: 3rem;
   font-size: 1.4rem;
+  color: #fff;
+  margin-left: 8rem;
 }
 
 .logotbc {
@@ -486,18 +439,14 @@ html {
 
 .textus {
   background-color: #00a3e0;
-  /* padding-left: 3rem;
-  padding-right: 3rem; */
+
   color: #fff;
   font-size: 2rem;
-  /* padding-bottom: 0.5rem;
-  padding-top: 0.5rem; */
-  border-radius: 7.5px;
-  /* border: none; */
-  /* cursor: pointer; */
-  margin-right: 7rem;
-  /* transition: color 0.6s ease; */
 
+  border-radius: 7.5px;
+
+  margin-right: 7rem;
+  margin-top: 1rem;
   transition: color 0.3s ease;
   padding: 0.7rem 3rem 0.7rem 3rem;
   text-decoration: none;
@@ -514,11 +463,13 @@ html {
 .text2 {
   font-size: 1.6rem;
   font-weight: 400;
-  padding-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .rules {
   cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .socials {
@@ -526,10 +477,10 @@ html {
 }
 
 .Security {
-  /* padding-right: 20rem; */
   display: flex;
   gap: 0.4rem;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .COPYRIGHT {
@@ -542,7 +493,7 @@ html {
 
 .sticky {
   position: fixed;
-  /* position: sticky; */
+
   top: 0;
   width: 100%;
   background-color: rgba(36, 35, 35, 0.95);
@@ -552,10 +503,6 @@ html {
   margin-top: 8.4rem;
 }
 
-/* .sticky-color {
-  background-color: rgba(36, 35, 35, 0.95);
-} */
-
-/* .transition1 {
-  transition: all 0.3s ease;
-} */
+.slide.active {
+  opacity: 1;
+}

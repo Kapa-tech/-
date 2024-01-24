@@ -12,29 +12,29 @@ const img1 = document.querySelector(".moreinfoimg1");
 const img2 = document.querySelector(".moreinfoimg2");
 ///read more
 btn1.addEventListener("click", function () {
-  text1.classList.toggle("hidden");
+  text1.classList.toggle("active-readmore");
   img1.classList.remove("rotate180");
   img2.classList.remove("rotate180");
   img.classList.toggle("rotate180");
-  text2.classList.add("hidden");
-  text3.classList.add("hidden");
+  text2.classList.add("active-readmore");
+  text3.classList.add("active-readmore");
 });
 
 btn2.addEventListener("click", function () {
-  text2.classList.toggle("hidden");
+  text2.classList.toggle("active-readmore");
   img1.classList.toggle("rotate180");
   img.classList.remove("rotate180");
   img2.classList.remove("rotate180");
-  text1.classList.add("hidden");
-  text3.classList.add("hidden");
+  text1.classList.add("active-readmore");
+  text3.classList.add("active-readmore");
 });
 btn3.addEventListener("click", function () {
-  text3.classList.toggle("hidden");
+  text3.classList.toggle("active-readmore");
   img2.classList.toggle("rotate180");
   img.classList.remove("rotate180");
   img1.classList.remove("rotate180");
-  text1.classList.add("hidden");
-  text2.classList.add("hidden");
+  text1.classList.add("active-readmore");
+  text2.classList.add("active-readmore");
 });
 // stikcy navigaction
 document.addEventListener("scroll", function () {

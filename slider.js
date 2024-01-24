@@ -7,7 +7,7 @@
 // const maxSlide = slides.length;
 // const btnLeft = document.querySelector(".slide-arrow-l");
 // const btnRight = document.querySelector(".slide-arrow-r");
-// const dotContainer = document.querySelector(".dots");
+const dotContainer = document.querySelector(".dots");
 // const dot = document.querySelector(".dots-dot");
 // const dot2 = document.querySelector(".dots-dot1");
 // const dot3 = document.querySelector(".dots-dot2");
@@ -62,12 +62,12 @@ function showSlide(index) {
 }
 showSlide(0);
 function prevSlide() {
-  currentSlide = (currentSlide - 1 + 3) % 3; // Adjust the modulus based on the number of slides
+  currentSlide = (currentSlide - 1 + 3) % 3;
   showSlide(currentSlide);
 }
 
 function nextSlide() {
-  currentSlide = (currentSlide + 1) % 3; // Adjust the modulus based on the number of slides
+  currentSlide = (currentSlide + 1) % 3;
   showSlide(currentSlide);
 }
 

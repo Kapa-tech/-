@@ -1,27 +1,5 @@
-/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
-
-/**************************/
-/* BELOW 1344px (Smaller desktops) */
-/**************************/
-
-/**************************/
-/* BELOW 1200px (Landscape Tablets) */
-/**************************/
-
-@media (max-width: 75em) {
+@media (max-width: 74em) {
   html {
-    /* 9px / 16px  */
-    font-size: 56.25%;
-  }
-}
-
-/**************************/
-/* BELOW 944px (Tablets) */
-/**************************/
-
-@media (max-width: 63.8125em) {
-  html {
-    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
   .firstcolume-p {
@@ -41,11 +19,11 @@
     height: 160rem;
   }
   .slide-imgs {
-    margin-right: 60rem;
+    margin-right: 80rem;
   }
   .slide-imgs-img {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
   }
   .slide-arrow-l {
     margin-left: -6rem;
@@ -58,34 +36,138 @@
   }
 }
 
-/**************************/
-/* BELOW 704px (Smaller tablets) */
-/**************************/
+@media (max-width: 20em) {
+  /* 320px */
+  body {
+    width: 32rem;
+  }
+  .box {
+    width: 32rem;
+    height: 6.9rem;
+  }
+  .tbclogo {
+    width: 13rem;
+    height: 2.9rem;
+  }
+  .teammembers {
+    width: 32rem;
+    height: 21.717rem;
+  }
+  .box1 {
+    width: 28rem;
+    height: 11.717rem;
+    font-size: 2px;
+  }
+  .head1 {
+    width: 16rem;
+    height: 3.4rem;
+    font-size: 24px !important;
+  }
+  .head2 {
+    width: 22.3rem;
+    height: 7.139rem;
+    font-size: 22px !important;
+    line-height: 4rem;
+  }
+  .introduction {
+    width: 32rem;
+    height: 50.331rem;
+    display: block;
+  }
+  .box2 {
+    font-size: 17px;
+    width: 28rem;
+    display: block;
+    height: 35.831rem;
 
-@media (max-width: 44em) {
-}
+    /* margin-bottom: 4rem; */
+  }
+  .intro {
+    /* height: 35.831rem; */
+    line-height: 2.5rem;
 
-/**************************/
-/* BELOW 544px (Phones) */
-/**************************/
+    /* padding: 2rem; */
+    padding-top: 3rem;
 
-@media (max-width: 34em) {
-}
+    margin-bottom: 4rem;
+  }
 
-/* 
-  - Font sizes (px)
-  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-  
-  - Spacing system (px)
-  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-  */
+  .more {
+    font-size: 18px !important;
+  }
+  .courses {
+    width: 32rem;
+    height: 292.852rem;
+  }
 
-/**************************/
-/* Fixing Safari flexbox gap */
-/**************************/
-
-@media (max-width: 75em) {
-}
-
-@media (max-width: 59em) {
+  .header {
+    width: 28rem;
+    height: 3.4rem;
+    padding-top: 2rem;
+  }
+  .box3 {
+    width: 28rem;
+    height: 282.952rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .list {
+    width: 28rem !important;
+  }
+  .coursename {
+    font-size: 1.5rem !important;
+    padding-top: 2rem !important;
+  }
+  .details {
+    margin-top: 0 !important;
+  }
+  .registration {
+    padding-bottom: 1rem;
+  }
+  .info {
+    padding-left: 2rem !important;
+  }
+  .btn {
+    font-size: 1.5rem !important;
+  }
+  .partners {
+    width: 32rem;
+    height: 43.08rem;
+  }
+  .partners-head {
+    margin: auto 2rem;
+    font-size: 1.8rem;
+  }
+  .slide-imgs {
+    /* flex-direction: column; */
+  }
+  .askedquestions {
+    height: 49.6rem;
+    width: 32rem;
+  }
+  .box5 {
+    width: 28rem;
+  }
+  .head3 {
+    width: 27rem;
+    display: block !important;
+  }
+  .head3-p {
+    font-size: 20px !important;
+    width: 20rem;
+  }
+  /* .list1 {
+    gap: 0;
+  } */
+  .listitem {
+    font-size: 18px !important;
+    padding-bottom: 0rem;
+  }
+  .listitem2 {
+    font-size: 18px !important;
+  }
+  .listitem3 {
+    font-size: 18px !important;
+  }
 }

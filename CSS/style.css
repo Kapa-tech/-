@@ -244,19 +244,19 @@ body {
 
 .listitem {
   border-bottom: 1px solid #ffffff30;
-  padding-bottom: 3rem;
+
   cursor: pointer;
 }
 
 .listitem2 {
   border-bottom: 1px solid #ffffff30;
-  padding-bottom: 3rem;
+
   cursor: pointer;
 }
 
 .listitem3 {
   border-bottom: 1px solid #ffffff30;
-  padding-bottom: 3rem;
+
   cursor: pointer;
   margin-bottom: 8rem;
 }
@@ -323,17 +323,17 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   padding-top: 3rem;
-  padding-bottom: 1rem;
-  /* opacity: 0; */
-  /* max-height: 0; */
-  /* overflow: hidden; */
-  /* transition: all 0.3s ease; */
+
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
 }
 
 .active-readmore {
-  /* opacity: 1; */
-  /* transition: opacity 1s ease-in-out; */
-  display: none;
+  opacity: 1;
+  padding-bottom: 4rem;
+  max-height: 1000rem;
 }
 
 .rules {

@@ -1,0 +1,124 @@
+.navigation {
+  background-color: #1a1e1f;
+  display: flex;
+  /* height: 8.4rem; */
+  align-items: center;
+  justify-content: center;
+  gap: 41rem;
+  /* width: 190.3rem; */
+  height: 8.4rem;
+  z-index: 2;
+}
+
+.teammembers {
+  height: 35.2rem;
+  background-image: url("meeting.webp");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin: 0 auto;
+  height: 13.738rem;
+  width: 98rem;
+}
+
+.introduction {
+  height: 46.478rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+  color: #fff;
+}
+
+.box2 {
+  font-size: 2.8rem;
+  width: 95.7rem;
+  height: 26.498rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-bottom: 6rem;
+
+  font-weight: 549;
+  line-height: 4rem;
+}
+
+.courses {
+  /* width: 190.3rem; */
+  height: 148.5rem;
+  background-color: rgb(22, 22, 22);
+  color: #fff;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95.7rem;
+  height: 26.498rem;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.header {
+  width: 95.7rem;
+  font-size: 2.7rem;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.partners {
+  height: 36.339rem;
+
+  background-color: rgb(43, 43, 43);
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.box4 {
+  margin: auto;
+  padding-top: 3rem;
+  width: 95.7rem;
+}
+
+.askedquestions {
+  min-height: 48.4rem;
+
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: row;
+}
+
+.box5 {
+  width: 90rem;
+
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+
+  margin-top: 9rem;
+}
+
+.lastsection {
+  background-color: rgb(26, 30, 31);
+  height: 22.839rem;
+}
+
+.box6 {
+  padding-top: 6rem;
+  display: flex;
+  gap: 60rem;
+  justify-content: center;
+  align-items: center;
+}

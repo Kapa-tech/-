@@ -1,0 +1,39 @@
+.COPYRIGHT {
+  cursor: pointer;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.sticky {
+  position: fixed;
+
+  top: 0;
+  width: 100%;
+  background-color: rgba(36, 35, 35, 0.95);
+}
+
+.sticky2 {
+  margin-top: 8.4rem;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.socials {
+  cursor: pointer;
+}
+
+.FB {
+  padding-right: 0.6rem;
+}
+
+.eachlevel {
+  margin-bottom: 1.4rem;
+}
+
+.slider {
+  position: relative;
+}

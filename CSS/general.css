@@ -13,6 +13,7 @@
 .teammembers {
   height: 35.2rem;
   background-image: url("meeting.webp");
+
   display: flex;
   flex-direction: column;
   justify-content: center;

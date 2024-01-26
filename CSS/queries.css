@@ -1,43 +1,30 @@
-@media (max-width: 74em) {
+@media (max-width: 71.625em) {
   html {
     font-size: 50%;
   }
   .firstcolume-p {
     width: 20rem;
   }
-  .questions {
-    width: 18rem;
-    font-size: 2.3rem;
+}
+@media (max-width: 62.1875em) {
+  html {
+    font-size: 50%;
   }
-  .head3-p {
-    width: 40rem;
+  .links {
+    width: 50rem;
   }
-  .list {
-    height: 45rem;
+  .navlinks {
+    width: 5rem;
+    display: block;
   }
-  .courses {
-    height: 160rem;
-  }
-  .slide-imgs {
-    margin-right: 80rem;
-  }
-  .slide-imgs-img {
-    width: 60%;
-    height: 60%;
-  }
-  .slide-arrow-l {
-    margin-left: -6rem;
-  }
-  .slide-arrow-r {
-    margin-right: -6rem;
-  }
-  .box6 {
-    gap: 60rem;
+  .TBClink {
+    width: 10rem;
+    display: block;
   }
 }
 
-@media (max-width: 20em) {
-  /* 320px */
+/* @media (max-width: 20em) {
+
   body {
     width: 32rem;
   }
@@ -80,13 +67,13 @@
     display: block;
     height: 35.831rem;
 
-    /* margin-bottom: 4rem; */
+   
   }
   .intro {
-    /* height: 35.831rem; */
+   
     line-height: 2.5rem;
 
-    /* padding: 2rem; */
+ 
     padding-top: 3rem;
 
     margin-bottom: 4rem;
@@ -140,7 +127,7 @@
     font-size: 1.8rem;
   }
   .slide-imgs {
-    /* flex-direction: column; */
+   
   }
   .askedquestions {
     height: 49.6rem;
@@ -157,9 +144,7 @@
     font-size: 20px !important;
     width: 20rem;
   }
-  /* .list1 {
-    gap: 0;
-  } */
+
   .listitem {
     font-size: 18px !important;
     padding-bottom: 0rem;
@@ -170,4 +155,4 @@
   .listitem3 {
     font-size: 18px !important;
   }
-}
+} */

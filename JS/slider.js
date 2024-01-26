@@ -81,4 +81,5 @@ setInterval(nextSlide, 6000);
 
 dotContainer.addEventListener("click", function (e) {
   showSlide(e.target.classList[1] - 1);
+  currentSlide === e.target.classList[1];
 });

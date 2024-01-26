@@ -185,10 +185,8 @@ body {
 
 .slide {
   position: absolute;
-
   width: 190.3rem;
   height: 30rem;
-
   opacity: 0;
   transition: opacity 1s ease-in-out;
   display: flex;

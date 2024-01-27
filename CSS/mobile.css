@@ -1,0 +1,254 @@
+@media (max-width: 20em) {
+  .navigation {
+    display: block;
+    width: 29.7rem;
+  }
+  .links {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 12.3rem;
+    /* width: 26rem; */
+    height: 100vh;
+    background-color: rgb(34, 34, 34);
+    flex-direction: column;
+    padding-top: 10rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    display: none;
+  }
+  .box {
+    width: 29.7rem;
+    height: 6.9rem;
+  }
+  .tbclogo {
+    width: 13rem;
+    height: 2.9rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .teammembers {
+    width: 29.7rem;
+    height: 21.717rem;
+  }
+  .box1 {
+    width: 25rem;
+    height: 11.717rem;
+    font-size: 2px;
+  }
+  .head1 {
+    width: 16rem;
+    height: 3.4rem;
+    font-size: 24px !important;
+  }
+  .head2 {
+    width: 22.3rem;
+    height: 7.139rem;
+    font-size: 22px !important;
+    line-height: 4rem;
+  }
+  .introduction {
+    width: 29.7rem;
+    height: 50.331rem;
+    display: block;
+  }
+  .box2 {
+    font-size: 17px;
+    width: 25rem;
+    display: block;
+    height: 35.831rem;
+  }
+  .intro {
+    line-height: 2.5rem;
+
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .more {
+    font-size: 18px !important;
+  }
+  .courses {
+    width: 29.7rem;
+    height: 292.852rem;
+  }
+  .header {
+    width: 25rem;
+    height: 3.4rem;
+    padding-top: 2rem;
+  }
+  .box3 {
+    width: 25rem;
+    height: 282.952rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+  }
+  .list {
+    width: 26rem !important;
+  }
+  .coursename {
+    font-size: 1.5rem !important;
+    padding-top: 2rem !important;
+  }
+  .coursename1 {
+    font-size: 1.5rem !important;
+    position: absolute;
+    left: 17.5rem;
+    bottom: -310.7rem;
+  }
+  .details {
+    margin-top: 0 !important;
+  }
+  .details-last {
+    margin-top: 0;
+  }
+  .registration {
+    padding-bottom: 1rem;
+  }
+  .info {
+    padding-left: 2rem !important;
+  }
+  .btn {
+    font-size: 1.5rem !important;
+  }
+  .partners {
+    width: 29.7rem;
+    height: 43.08rem;
+  }
+  .partners-head {
+    margin: auto 2rem;
+    font-size: 1.8rem;
+  }
+
+  .askedquestions {
+    min-height: 48.4rem;
+    width: 29.7rem;
+    position: relative;
+  }
+  .questions {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.7rem;
+    margin-left: 25%;
+    margin-bottom: 14%;
+  }
+  .btns {
+    margin: 0;
+    /* position: absolute; */
+    left: 23rem;
+    bottom: 3rem;
+    margin-left: 2rem;
+  }
+
+  .btns2 {
+    margin: 0;
+    /* position: absolute; */
+    left: 25.3rem;
+    bottom: 12rem;
+    margin-left: 4.5rem;
+  }
+
+  .btns3 {
+    margin: 0;
+    /* position: absolute; */
+    left: 25.3rem;
+    bottom: 20rem;
+    margin-left: 21.8rem;
+  }
+  .text,
+  .text1,
+  .text2 {
+    padding-top: 2rem;
+  }
+  .text2 {
+    padding-top: 0;
+  }
+
+  .box5 {
+    width: 25rem;
+    margin-top: 4rem;
+  }
+  .head3 {
+    width: 27rem;
+    display: block !important;
+  }
+  .head3-p {
+    font-size: 20px !important;
+    width: 20rem;
+  }
+  .listitem {
+    font-size: 16px !important;
+    padding-bottom: 0rem;
+    position: relative;
+  }
+  .listitem2 {
+    font-size: 16px !important;
+  }
+  .listitem3 {
+    font-size: 16px !important;
+  }
+  .lastsection {
+    /* width: 32rem; */
+    margin: 0;
+    position: absolute;
+    left: 0;
+    width: 29.7rem;
+    height: 27rem;
+  }
+  .box6 {
+    display: block;
+  }
+  .firstcolume {
+    /* flex-direction: row; */
+    display: block;
+  }
+
+  .Security {
+    position: absolute;
+    bottom: 15%;
+
+    font-size: 1.4rem;
+    left: 10%;
+  }
+  .scncolume {
+    flex-direction: row;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    gap: 0;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .socials {
+    display: flex;
+    order: 2;
+    gap: 0.8rem;
+  }
+  .textus {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+  .logotbc {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .rules {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    font-size: 1.4rem;
+  }
+  .FB {
+    width: 40%;
+    height: 40%;
+  }
+
+  .YT {
+    width: 35%;
+    height: 35%;
+  }
+}

@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  min-width: 100rem;
+  min-width: 106rem;
 }
 
 .navlinks {
@@ -27,9 +27,13 @@ body {
   color: #00a3e0;
 }
 
+.btn-formobile {
+  padding: 1rem;
+  display: none;
+}
+
 .links {
   display: flex;
-
   font-size: 1.6rem;
   gap: 4rem;
   list-style: none;
@@ -98,7 +102,6 @@ body {
   margin-top: 11rem;
   display: flex;
   gap: 1rem;
-
   border: none;
 }
 
@@ -106,10 +109,6 @@ body {
   margin-top: 8.27rem;
   display: flex;
   gap: 1rem;
-}
-
-.arrow {
-  padding-top: 1rem;
 }
 
 .btn {
@@ -155,15 +154,11 @@ body {
   gap: 12rem;
   height: 7.9rem;
   align-items: center;
-  /* justify-content: center; */
 }
 
-.dots-dot,
-.dots-dot1,
-.dots-dot2 {
+.dots-dot {
   border: none;
   background-color: rgb(232, 230, 230);
-
   height: 0.6rem;
   width: 0.6rem;
   border-radius: 50%;
@@ -171,8 +166,8 @@ body {
   cursor: pointer;
 }
 
-.dots__dot--active {
-  background-color: #888;
+.dots-dot--active {
+  background-color: gray;
   opacity: 1;
 }
 
@@ -194,7 +189,7 @@ body {
   justify-content: center;
 }
 
-.lvlhead {
+.level-head {
   font-size: 1.6rem;
   margin-bottom: 4rem;
 }
@@ -248,13 +243,11 @@ body {
 
 .listitem2 {
   border-bottom: 1px solid #ffffff30;
-
   cursor: pointer;
 }
 
 .listitem3 {
   border-bottom: 1px solid #ffffff30;
-
   cursor: pointer;
   margin-bottom: 8rem;
 }
@@ -296,12 +289,9 @@ body {
 
 .textus {
   background-color: #00a3e0;
-
   color: #fff;
   font-size: 2rem;
-
   border-radius: 7.5px;
-
   margin-right: 7rem;
   margin-top: 1rem;
   transition: color 0.3s ease;
@@ -321,7 +311,6 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   padding-top: 3rem;
-
   opacity: 0;
   max-height: 0;
   overflow: hidden;

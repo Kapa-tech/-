@@ -1,11 +1,9 @@
 .navigation {
   background-color: #1a1e1f;
   display: flex;
-  /* height: 8.4rem; */
   align-items: center;
   justify-content: center;
   gap: 41rem;
-  /* width: 190.3rem; */
   height: 8.4rem;
   z-index: 2;
 }
@@ -13,8 +11,8 @@
 .teammembers {
   height: 35.2rem;
   background-image: url("meeting.webp");
-
   background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +29,6 @@
 
 .introduction {
   height: 46.478rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,13 +45,11 @@
   flex-direction: column;
   gap: 5rem;
   margin-bottom: 6rem;
-
   font-weight: 549;
   line-height: 4rem;
 }
 
 .courses {
-  /* width: 190.3rem; */
   height: 148.5rem;
   background-color: rgb(22, 22, 22);
   color: #fff;
@@ -79,7 +74,6 @@
 
 .partners {
   height: 36.339rem;
-
   background-color: rgb(43, 43, 43);
   font-size: 2.4rem;
   color: #fff;
@@ -93,7 +87,6 @@
 
 .askedquestions {
   min-height: 48.4rem;
-
   background-color: rgb(22, 22, 22);
   display: flex;
   justify-content: center;
@@ -104,11 +97,9 @@
 
 .box5 {
   width: 90rem;
-
   display: flex;
   gap: 3rem;
   flex-direction: column;
-
   margin-top: 9rem;
 }
 

@@ -18,6 +18,10 @@
   margin-top: 8.4rem;
 }
 
+.arrow {
+  padding-top: 1rem;
+}
+
 .slide.active {
   opacity: 1;
 }
@@ -36,8 +40,6 @@
 
 .slider {
   position: relative;
-  /* overflow: hidden; */
   display: flex;
-
   justify-content: center;
 }

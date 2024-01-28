@@ -2,21 +2,26 @@
   html {
     font-size: 50%;
   }
+
   .firstcolume-p {
     width: 20rem;
   }
 }
+
 @media (max-width: 62.1875em) {
   html {
     font-size: 50%;
   }
+
   .links {
     width: 50rem;
   }
+
   .navlinks {
     width: 5rem;
     display: block;
   }
+
   .TBClink {
     width: 10rem;
     display: block;
